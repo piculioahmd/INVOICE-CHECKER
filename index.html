@@ -7,30 +7,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <div class="container">
     <h1>📦 Invoice Checker</h1>
-  </header>
-
-  <main>
-    <table id="invoice-table">
-      <thead>
-        <tr>
-          <th>PO</th>
-          <th>TYPE</th>
-          <th>COLOR</th>
-          <th>SIZE</th>
-          <th>QTY</th>
-          <th>REMAIN</th>
-          <th>REWORK</th>
-          <th>STATUS</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td colspan="8">Loading...</td></tr>
-      </tbody>
-    </table>
-  </main>
-
+    <form id="invoiceForm">
+      <input type="text" id="brand" placeholder="Brand (e.g., TUMI)" required />
+      <input type="text" id="invoice" placeholder="Invoice No (e.g., INV-E2500417)" required />
+      <button type="submit">Check</button>
+    </form>
+    <div id="result" class="result"></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
