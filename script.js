@@ -1,4 +1,4 @@
-const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbxfpJDcAYsGlskgBY5JVx0iNTVDUCLJXsMX845fPSC73QC4eBH0AEPUNrqJu17BJJ7Z7A/exec"; // Ganti dengan URL Web App Apps Script kamu
+const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwYP04Jd0s3ktqDuFO7TSfVz2ozr2ZgBEICZSYOIo7Ip1F7_iYT6WkR2B3djJ3aACLXeQ/exec"; // Ganti dengan URL Web App Apps Script kamu
 
 async function loadData() {
   try {
