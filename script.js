@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     resultDiv.innerHTML = "⏳ Loading...";
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbznn28kbyUsKQGbiayHaXcPy2vs6mgW_On9kbYd_FCRj4NR3Mj_U6k_TN6B7c_IBa7TOA/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzW7I7GqPVywunZA5b_l2P-_Q6CLXcA7XIWxunX4FdDaH5gKQwxwIijG5Ng7l78t0yvXA/exec";
 
     fetch(`${scriptURL}?brand=${encodeURIComponent(brand)}&invoice=${encodeURIComponent(invoice)}`)
       .then(res => {
